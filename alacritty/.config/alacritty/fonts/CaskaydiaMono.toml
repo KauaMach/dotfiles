@@ -1,0 +1,15 @@
+[font.bold]
+family = "CaskaydiaMono Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "CaskaydiaMono Nerd Font"
+style = "Italic"
+
+[font.normal]
+family = "CaskaydiaMono Nerd Font"
+style = "Regular"
+
+[font.bold_italic]
+family = "CaskaydiaMono Nerd Font"
+style = "Bold Italic"

@@ -1,0 +1,65 @@
+[general]
+live_config_reload = true
+
+import = [
+  "~/.config/alacritty/themes/tokyo-night_alacritty.toml"
+]
+
+#Themes
+# "~/config/alacritty/themes/catppuccin_mocha.toml"
+# "~/config/alacritty/themes/tokyo-night_alacritty.toml"
+#"~/config/alacritty/fonts/SauceCodeProNerd.toml"
+
+[env]
+TERM = "xterm-256color"
+
+[window]
+decorations = "buttonless"
+dynamic_padding = false
+opacity = 0.7
+
+[window.dimensions]
+columns = 200
+lines = 40
+
+[window.padding]
+x = 10
+y = 10
+
+[cursor]
+# Define a topologia geométrica do cursor. 
+# Valores aceitos na API: "Block" (padrão), "Underline" (linha inferior), "Beam" (linha vertical).
+style.shape = "Beam"
+
+# (Opcional) Habilita a intermitência (blinking) do cursor, frequentemente 
+# associada à topologia Beam para otimização do rastreamento visual.
+# Valores aceitos: "Never", "Off", "On", "Always".
+style.blinking = "On"
+
+# (Opcional) Calibra o intervalo de intermitência em milissegundos.
+# blink_interval = 750
+
+[font]
+size = 15
+
+[font.bold]
+family = "SauceCodePro Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "SauceCodePro Nerd Font"
+style = "Italic"
+
+[font.normal]
+family = "SauceCodePro Nerd Font"
+style = "Regular"
+
+[font.bold_italic]
+family = "SauceCodePro Nerd Font"
+style = "Bold Italic"
+
+[keyboard]
+bindings = [
+   # Mapeia a tecla F11 para alternar entre o modo tela cheia e o modo normal.
+   { key = "F11", action = "ToggleFullscreen" }
+ ]
