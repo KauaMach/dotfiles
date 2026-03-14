@@ -20,15 +20,21 @@
 
 A estrutura do repositório espelha a hierarquia do `$HOME` para garantir a compatibilidade com o GNU Stow:
 
-```text
-.
-├── alacritty/   # Configuração do Alacritty (Temas e Fontes)
-├── kitty/       # Configuração do Kitty (Temas: Oxocarbon, Eldritch, Decay)
-├── fish/        # Configuração do Fish Shell e variáveis universais
-├── starship/    # Configuração do Starship Prompt (TOML)
-├── tmux/        # Configuração do Tmux e plugins (TPM)
-└── zsh/         # Configuração do .zshrc e Powerlevel10k
-
+```text4
+~/dotfiles/
+├── alacritty/                  # Configuração do Alacritty (Temas e Fontes)
+│   └── .config/alacritty/....  
+├── kitty                       # Configuração do Kitty (Temas: Oxocarbon, Eldritch, Decay)
+│   └──.config/kit/....
+├── fish/                       # Configuração do Fish Shell e variáveis universais
+│   └── .config/fish/....
+├── starship/                   # Configuração do Starship Prompt (TOML)
+│   └── .config/....
+├── tmux/                       # Configuração do Tmux e plugins (TPM)
+│   ├── .config/.tmux/....
+│   └── .tmux.conf
+└── zsh/                        # Configuração do .zshrc e Powerlevel10k
+    └── .zshrc
 ```
 
 ## 🚀 Instalação e Restauração
